@@ -3,7 +3,7 @@ AccessModifierOffset: -4
 IndentWidth: 4
 AllowAllArgumentsOnNextLine: false
 AllowAllParametersOfDeclarationOnNextLine: false
-AlignAfterOpenBracket: BlockIndent
+AlignAfterOpenBracket: DontAlign
 AlignArrayOfStructures: Left
 AlignConsecutiveBitFields: true
 AllowShortBlocksOnASingleLine: Empty
@@ -28,6 +28,7 @@ PackConstructorInitializers: Never
 PenaltyReturnTypeOnItsOwnLine: 1000
 PointerAlignment: Left
 ReferenceAlignment: Pointer
+RequiresClausePosition: OwnLine
 SeparateDefinitionBlocks: Always
 Standard: Latest
 SpacesInConditionalStatement: true
