@@ -3,9 +3,10 @@ AccessModifierOffset: -4
 IndentWidth: 4
 AllowAllArgumentsOnNextLine: false
 AllowAllParametersOfDeclarationOnNextLine: false
-AlignAfterOpenBracket: DontAlign
+AlignAfterOpenBracket: BlockIndent
 AlignArrayOfStructures: Left
 AlignConsecutiveBitFields: true
+AlignConsecutiveDeclarations: true
 AllowShortBlocksOnASingleLine: Empty
 AllowShortCaseLabelsOnASingleLine: false
 AllowShortEnumsOnASingleLine: false
@@ -25,6 +26,7 @@ FixNamespaceComments: true
 IndentCaseLabels: true
 Language: Cpp
 PackConstructorInitializers: Never
+PenaltyExcessCharacter: 10
 PenaltyReturnTypeOnItsOwnLine: 1000
 PointerAlignment: Left
 ReferenceAlignment: Pointer
