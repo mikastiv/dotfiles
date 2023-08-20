@@ -6,7 +6,6 @@ AllowAllParametersOfDeclarationOnNextLine: false
 AlignAfterOpenBracket: BlockIndent
 AlignArrayOfStructures: Left
 AlignConsecutiveBitFields: true
-AlignConsecutiveDeclarations: true
 AllowShortBlocksOnASingleLine: Empty
 AllowShortCaseLabelsOnASingleLine: false
 AllowShortEnumsOnASingleLine: false
@@ -15,22 +14,25 @@ AllowShortIfStatementsOnASingleLine: false
 AlwaysBreakTemplateDeclarations: Yes
 BinPackArguments: false
 BinPackParameters: false
+BreakBeforeBraces: Allman
 BreakBeforeConceptDeclarations: true
 BreakConstructorInitializers: BeforeColon
 BreakInheritanceList: BeforeColon
 ColumnLimit: 120
+Cpp11BracedListStyle: false
 EmptyLineBeforeAccessModifier: Always
 FixNamespaceComments: true
 IndentCaseLabels: true
+IntegerLiteralSeparator:
+  Binary: 4
+  Decimal: 3
+  Hex: -1
 Language: Cpp
+LineEnding: LF
 PackConstructorInitializers: Never
-PenaltyExcessCharacter: 10
 PenaltyReturnTypeOnItsOwnLine: 1000
 PointerAlignment: Left
 ReferenceAlignment: Pointer
-RequiresClausePosition: OwnLine
 SeparateDefinitionBlocks: Always
 Standard: Latest
-SpacesInConditionalStatement: true
-SpacesInParentheses: true
 UseTab: Never
