@@ -14,7 +14,7 @@ AllowShortIfStatementsOnASingleLine: false
 AlwaysBreakTemplateDeclarations: Yes
 BinPackArguments: false
 BinPackParameters: false
-BreakBeforeBraces: Allman
+BreakBeforeBraces: Attach
 BreakBeforeConceptDeclarations: true
 BreakConstructorInitializers: BeforeColon
 BreakInheritanceList: BeforeColon
