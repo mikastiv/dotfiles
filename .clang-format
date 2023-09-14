@@ -12,6 +12,7 @@ AllowShortEnumsOnASingleLine: false
 AllowShortFunctionsOnASingleLine: None
 AllowShortIfStatementsOnASingleLine: WithoutElse
 AllowShortLoopsOnASingleLine: true
+AlwaysBreakAfterReturnType: All
 AlwaysBreakTemplateDeclarations: Yes
 BinPackArguments: false
 BinPackParameters: false
