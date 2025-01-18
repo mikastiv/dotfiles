@@ -34,17 +34,27 @@
 "ui.menu.selected" = { bg = "selected" }
 "ui.debug" = "red"
 
+"diff.plus" = "green"
+"diff.minus" = "red"
+"diff.delta" = "orange"
+
+"hint" = { modifiers = ["bold"] }
+"info" = { modifiers = ["bold"] }
+"warning" = { fg = "yellow", modifiers = ["bold"] }
+"error" = { fg = "red", modifiers = ["bold"] }
+
 [palette]
 white = "#d5ced9"
 light-gray = "#6e7178"
 cyan = "#87d3f8"
 orange = "#f39c12"
+orange-dim = "#cd7600"
 yellow = "#ffff7a"
 purple = "#c74ded"
 red = "#e25822"
 green = "#14b37d"
 bg = "#0f111a"
-bg-light = "#14161f"
+bg-light = "#191b24"
 selected = "#414a5b"
 cursor = "#b4b4b4"
 bar = "#00b491"
