@@ -1,0 +1,39 @@
+"attribute" = { fg = "yellow" }
+"comment" = { fg = "light-gray" }
+"constant" = { fg = "red" }
+"constant.numeric" = { fg = "orange" }
+"constant.builtin" = { fg = "purple" }
+"constant.character.escape" = { fg = "red" }
+"constructor" = { fg = "yellow" }
+"function" = { fg = "yellow" }
+"function.builtin" = { fg = "orange" }
+"function.macro" = { fg = "orange" }
+"keyword" = { fg = "purple" }
+"label" = { fg = "white" }
+"namespace" = { fg = "white" }
+"operator" = { fg = "red" }
+"punctuation" = { fg = "white" }
+"special" = { fg = "orange" }
+"string" = { fg = "green" }
+"tag" = { fg = "orange" }
+"type" = { fg = "orange" }
+"variable" = { fg = "cyan" }
+
+"ui.background" = { bg = "bg" }
+"ui.text" = "light-gray"
+"ui.selection" = { bg = "selected" }
+"ui.linenr" = { fg = "light-gray" }
+"ui.cursor" = { bg = "cursor", fg = "bg" }
+
+[palette]
+white = "#d5ced9"
+light-gray = "#6e7178"
+cyan = "#87d3f8"
+orange = "#f39c12"
+yellow = "#ffff7a"
+purple = "#c74ded"
+red = "#e25822"
+green = "#14b37d"
+bg = "#0f111a"
+selected = "#3a4354"
+cursor = "#b4b4b4"
