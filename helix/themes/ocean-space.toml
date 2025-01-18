@@ -20,10 +20,16 @@
 "variable" = { fg = "cyan" }
 
 "ui.background" = { bg = "bg" }
-"ui.text" = "light-gray"
+"ui.text" = "white"
 "ui.selection" = { bg = "selected" }
 "ui.linenr" = { fg = "light-gray" }
 "ui.cursor" = { bg = "cursor", fg = "bg" }
+"ui.cursor.match" = { bg = "selected" }
+"ui.statusline" = { bg = "bar", fg = "bg" }
+"ui.popup" = { bg = "bg-light", fg = "white" }
+"ui.window" = "light-gray"
+"ui.menu" = { bg = "bg-light" }
+"ui.menu.selected" = { bg = "selected" }
 
 [palette]
 white = "#d5ced9"
@@ -35,5 +41,7 @@ purple = "#c74ded"
 red = "#e25822"
 green = "#14b37d"
 bg = "#0f111a"
-selected = "#3a4354"
+bg-light = "#14161f"
+selected = "#414a5b"
 cursor = "#b4b4b4"
+bar = "#00b491"
