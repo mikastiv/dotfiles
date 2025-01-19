@@ -17,6 +17,8 @@
 "string" = { fg = "green" }
 "tag" = { fg = "orange" }
 "type" = { fg = "orange" }
+"type.builtin" = { fg = "purple" }
+"type.enum" = { fg = "purple" }
 "variable" = { fg = "cyan" }
 
 "ui.background" = { bg = "bg" }
@@ -38,8 +40,15 @@
 "diff.minus" = "red"
 "diff.delta" = "orange"
 
-"hint" = { modifiers = ["bold"] }
-"info" = { modifiers = ["bold"] }
+"diagnostic.info" = { color = "blue", style = "curl" }
+"diagnostic.hint" = { color = "green", style = "curl" }
+"diagnostic.warning" = { color = "yellow", style = "curl" }
+"diagnostic.error" = { color = "red", style = "curl" }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+
+"info" = { fg = "blue", modifiers = ["bold"] }
+"hint" = { fg = "green", modifiers = ["bold"] }
 "warning" = { fg = "yellow", modifiers = ["bold"] }
 "error" = { fg = "red", modifiers = ["bold"] }
 
@@ -47,11 +56,13 @@
 white = "#d5ced9"
 light-gray = "#6e7178"
 cyan = "#87d3f8"
+blue = "#3a75c4"
 orange = "#f39c12"
-orange-dim = "#cd7600"
 yellow = "#ffff7a"
 purple = "#c74ded"
 red = "#e25822"
+pink = "#ff00aa"
+hot-pink = "#f92672"
 green = "#14b37d"
 bg = "#0f111a"
 bg-light = "#191b24"

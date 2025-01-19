@@ -2,5 +2,7 @@ theme = "ocean-space"
 
 [editor]
 end-of-line-diagnostics = "hint"
+line-number = "relative"
+
 [editor.inline-diagnostics]
 cursor-line = "warning"
