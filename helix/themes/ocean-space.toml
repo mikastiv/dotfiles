@@ -45,10 +45,10 @@
 "diff.minus" = "red"
 "diff.delta" = "orange"
 
-"diagnostic.info" = { color = "blue", style = "curl" }
-"diagnostic.hint" = { color = "green", style = "curl" }
-"diagnostic.warning" = { color = "yellow", style = "curl" }
-"diagnostic.error" = { color = "red", style = "curl" }
+"diagnostic.info".underline = { color = "blue", style = "curl" }
+"diagnostic.hint".underline = { color = "green", style = "curl" }
+"diagnostic.warning".underline = { color = "yellow", style = "curl" }
+"diagnostic.error".underline = { color = "red", style = "curl" }
 "diagnostic.unnecessary" = { modifiers = ["dim"] }
 "diagnostic.deprecated" = { modifiers = ["crossed_out"] }
 
