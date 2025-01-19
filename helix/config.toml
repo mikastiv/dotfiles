@@ -3,6 +3,10 @@ theme = "ocean-space"
 [editor]
 end-of-line-diagnostics = "hint"
 line-number = "relative"
+popup-border = "all"
+
+[editor.cursor-shape]
+insert = "bar"
 
 [editor.inline-diagnostics]
 cursor-line = "warning"
