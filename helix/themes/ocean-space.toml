@@ -21,6 +21,11 @@
 "type.enum" = { fg = "purple" }
 "variable" = { fg = "cyan" }
 
+"markup.heading" = { fg = "hot-pink" }
+"markup.list" = { fg = "yellow" }
+"markup.link" = { fg = "purple" }
+"markup.quote" = { fg = "green" }
+
 "ui.background" = { bg = "bg" }
 "ui.text" = "white"
 "ui.selection" = { bg = "selected" }
