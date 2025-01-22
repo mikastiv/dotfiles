@@ -38,6 +38,7 @@
 "ui.window" = "light-gray"
 "ui.menu.selected" = { bg = "selected" }
 "ui.debug" = "red"
+"ui.virtual.indent-guide" = "light-gray"
 
 "diff.plus" = "green"
 "diff.minus" = "red"
