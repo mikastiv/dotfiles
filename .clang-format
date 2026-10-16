@@ -25,10 +25,6 @@ Cpp11BracedListStyle: false
 EmptyLineBeforeAccessModifier: Always
 FixNamespaceComments: true
 IndentCaseLabels: true
-IntegerLiteralSeparator:
-  Binary: 4
-  Decimal: 3
-  Hex: -1
 Language: Cpp
 LineEnding: LF
 PackConstructorInitializers: Never
